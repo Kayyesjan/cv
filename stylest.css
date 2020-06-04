@@ -1,0 +1,131 @@
+
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h2{
+  font-family: 'Sacramento';
+  padding: 5% 10% 2%;
+  font-size: 4rem;
+}
+p{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+/* header */
+
+#header{
+    text-align: center;
+}
+#top_headre{
+      background: powderblue;
+      padding: 5% 10%;
+
+}
+.header-image{
+  width: 20%;
+  border-radius: 100%;
+}
+#navbar {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  opacity: 40%;
+  height: 45px;
+  z-index: 1;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: #658FAF;
+  text-align: center;
+  padding: 10px 17px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: lightblue;
+  color: blue;
+}
+h1{
+  color: #658FAF;
+  font-weight:bolder;
+}
+.navbar-brand{
+  float: left;
+  color: yellow;
+  position: relative;
+  top: 0.2rem;
+  left: 1rem;
+}
+@media (max-width: 767px){
+  .header-image{
+    position: relative;
+    top: 1rem;
+
+    }
+    #navbar{
+      height: 40px;
+    }
+    #navbar a{
+      font-size: 0.8rem;
+      padding:10px;
+  }
+  .navbar-brand{
+    font-size: 1.2rem;
+  }
+  .body-image{
+    width: 400px;
+  }
+  h3{
+    font-size: 10px;
+  }
+  h2{
+    font-size: 30px;
+  }
+}
+/* image */
+#carouselExampleCaptions{
+  background-color: powderblue;
+  padding: 15rem 10rem;
+}
+.cross-image{
+  width: 400px;
+}
+/* card */
+#features{
+  padding: 10px;
+}
+.body-image{
+  width: 550px;
+}
+.flc-img{
+  width: 610px;
+
+}
+#contact{
+  width: 100%;
+}
+/* footer */
+.afghan{
+  padding: 20px 0 1px;
+  position: relative;
+  top: 0.8rem;
+}
+.fab{
+  padding: 0 0 5px;
+}
+h5{
+  font-size: 0.5rem;
+}
+.cc{
+  padding: 10px;
+}
